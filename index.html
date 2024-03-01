@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<!-- 
+<figure>
+    <center><img src="workshop_figure.gif" style="width:65%"; /></center>
+    <!-- <figcaption style='text-align: center'><small>Source: <a href="https://ai.googleblog.com/2020/04/an-optimistic-perspective-on-offline.html">Google AI Blog </a></small></figcaption> -->
+</figure> -->
+
+<div class="row">
+
+
+
+<p>
+	Reinforcement learning has been widely successful in solving particular tasks defined with a reward function - from superhuman Go playing to magnetic confinement for plasma control. On the other hand, creating a generalist RL agent poses the unresolved question of what agent can learn not just from reward-defined environments, but from the often substantial quantity of reward-free interactions with the environment. This question has been explored recently and has taken diverse forms—learning representations that are action-free, causal, predictive, and contrastive; learning from large-scale action-free datasets; learning exploration using intrinsic reward and skill discovery; learning policies that are arbitrary goal-reaching, language-conditioned, policies optimal for distribution of reward function, or even optimal for all reward functions; learning intent from datasets using a variety of learning signals like preferences, rankings, expert, and human cues; learning imitative foundational action models. We propose a workshop that focuses solely on this setting of reward-free RL. Considering the wide variety of possibilities for RL beyond rewards, we aim to bring a set of diverse opinions to the table to spark discussion about the right questions and novel tools to introduce new capabilities for RL agents to learn in a reward-free setting.</p>
+
+<!-- <p>
+<b> What's new in this edition? </b> While offline RL focuses on learning <em> solely </em> from fixed datasets, one of the main learning points from the <a href=https://offline-rl-neurips.github.io/2021> previous edition of offline RL workshop </a> was that large-scale RL applications typically want to use offline RL as part of a bigger system as opposed to being the end-goal in itself. Thus, we propose to shift the focus from algorithm design and offline RL applications to how <em> offline RL can be a launchpad </em>, i.e., a tool or a starting point, for solving challenges in sequential decision-making such as exploration, generalization, transfer, safety, and adaptation. Particularly, we are interested in studying and discussing methods for learning expressive models, policies, skills and value functions from data that can help us make progress towards efficiently tackling these challenges, which are otherwise often intractable. 
+</p> -->
+<!-- 
+<p>
+<b> Topics to be discussed </b>. To this end, we have invited new speakers researching ways to use making offline data useful in various ways for RL, as well as speakers whose focus areas present new and interesting decision-making challenges which can benefit from using offline RL as a tool. We are also organizing a panel discussion,  focused on understanding the key foundational research challenges in learning to bootstrap from offline datasets.  We will encourage discussions and contributions around (but not limited to) the following topics that are important in the context of utilizing RL+X datasets:
+</p>
+<ul>
+<li> Learning from offline preferences, language, cross-embodiment, video or synthetic datasets </li>
+<li> Learning representations, skills, safety or social constraints from offline data </li>
+<li> Training foundational models for efficient adaptation/finetuning</li>
+<li> Representation learning from static datasets </li>
+<li> Offline goal-conditioned behavior learning; </li>
+<li> Offline policy selection</li>
+<li> Data collection for efficient downstream RL finetuning </li>
+<li> RL with demonstration data </li>
+</ul>
+</div> -->
+
+<!-- <p>
+Submission site: <a href="">  </a>
+The submission deadline is October 2, 2022 (Anywhere on Earth) <strike> September 30, 2022 </strike> . Please refer to the <a href="https://offline-rl-neurips.github.io/2022/submit.html"> submission </a> page for more details.	
+</p> -->
+	
+<!-- <div id="PC" class="row">
+<h3>Program Committee</h3>
+<div class="break"></div>
+	<ul style="width:25%; float:left; display: inline; ">
+		<li>Adam R Villaflor </li>
+		<li>Alex Irpan </li>
+
+
+	 </ul>
+
+	<ul style="width:25%; float:center; display: inline; ">
+		<li>Ilya Kostrikov </li>
+
+	</ul>
+
+	<ul style="width:25%; float:right; display: inline;">
+		<li>Kamyar Ghasemipour </li>
+		<li>Shangtong Zhang </li>
+
+	</ul>
+</div>
+ -->
+<div id="organizers" class="row">
+<h2 style="float:left;">Organizers</h2>
+<div class="break"></div>
+<div style="text-align: left;">
+{%- for person in site.data.organizers -%}
+<div class="person">
+  <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
+   <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
+</div>
+{%- endfor -%}
+</div>
+</div>
+<p> To contact the organizers, please send an email to <a href="mailto:rlx-workshop@gmail.com">rlx-workshop@gmail.com</a>. <p>
+

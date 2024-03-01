@@ -1,0 +1,12 @@
+theme: jekyll-theme-minimal
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+exclude:
+  - scripts
+  - vendor
+  - Gemfile

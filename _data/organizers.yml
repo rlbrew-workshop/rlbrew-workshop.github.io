@@ -1,0 +1,32 @@
+- name: Caleb Chuck
+  image: https://calcharles.github.io/images/CalebChuckMugShot.JPG
+  title: UT Austin
+  url: https://calcharles.github.io/
+- name: Akanksha Saran
+  image: https://asaran.github.io/images/akanksha4.jpg
+  title: UT Austin
+  url: https://asaran.github.io/
+- name: Siddhant Agarwal
+  image: https://agarwalsiddhant10.github.io/images/siddhant.png
+  url: https://agarwalsiddhant10.github.io/
+  title: UT Austin
+- name: Fan Feng
+  image: https://fan-feng.com/static/img/avatar.jpg
+  url: https://fan-feng.com/
+  title: City University of Hong Kong
+- name: Yuchen Cui
+  image: https://web.stanford.edu/~yuchenc/images/profile_yuchen.jpg
+  url: https://web.stanford.edu/~yuchenc/
+  title: Stanford
+- name: Harshit Sikchi
+  image: https://hari-sikchi.github.io/images_harshit/profile.png
+  url: https://hari-sikchi.github.io/
+  title: UT Austin
+- name: Roberta Raileanu
+  image: https://rraileanu.github.io/images/headshot_green.jpg
+  url: https://rraileanu.github.io/
+  title: FAIR, Meta
+- name: Joey Hejna
+  image: http://joeyhejna.com/images/profile.jpg
+  url: http://joeyhejna.com/
+  title: Stanford
