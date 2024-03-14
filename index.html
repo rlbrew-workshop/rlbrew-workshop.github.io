@@ -12,26 +12,27 @@ layout: default
 
 
 <p>
-	Reinforcement learning has been widely successful in solving particular tasks defined with a reward function - from superhuman Go playing to magnetic confinement for plasma control. On the other hand, creating a generalist RL agent poses the unresolved question of what agent can learn not just from reward-defined environments, but from the often substantial quantity of reward-free interactions with the environment. This question has been explored recently and has taken diverse forms—learning representations that are action-free, causal, predictive, and contrastive; learning from large-scale action-free datasets; learning exploration using intrinsic reward and skill discovery; learning policies that are arbitrary goal-reaching, language-conditioned, policies optimal for distribution of reward function, or even optimal for all reward functions; learning intent from datasets using a variety of learning signals like preferences, rankings, expert, and human cues; learning imitative foundational action models. We propose a workshop that focuses solely on this setting of reward-free RL. Considering the wide variety of possibilities for RL beyond rewards, we aim to bring a set of diverse opinions to the table to spark discussion about the right questions and novel tools to introduce new capabilities for RL agents to learn in a reward-free setting.</p>
+Reinforcement Learning has been successful in solving tasks in a wide range of fields including robotics [1], finance [2], gameplay [3], and managing control systems [4]. However, this success is limited to tasks that can be described  via carefully crafted reward functions. For the success of RL algorithms, it is crucial to design a reward function that aligns with the human intent for the task and is suitably dense. As demonstrated by several works [5,6,7,8], constructing such reward functions is not easy. The problem only becomes more pronounced when the agent is expected to solve multiple tasks. Additionally, the heavy dependence of RL agents on reward-annotated environment interactions forces the agent to explore every time the reward function changes. The perils of reward design pose the unresolved question of what and how an agent can learn from the often substantial quantity of reward-free interactions with the environment, as well as with alternative learning signals. Prior works have investigated this question by using reward-free interactions for Intrinsic Motivation [9,10], Contrastive Learning [11, 12], Skill Discovery [13, 14], and Representation Learning [15, 16]. The difficulty of reward function design has also motivated prior art to propose alternative learning signals that can make learning easier such as expert demonstrations [17, 18], preferences [19, 20], implicit human feedback [21,22,23], or target distributions [9, 24] to describe the task to an RL agent.  
 
-<!-- <p>
-<b> What's new in this edition? </b> While offline RL focuses on learning <em> solely </em> from fixed datasets, one of the main learning points from the <a href=https://offline-rl-neurips.github.io/2021> previous edition of offline RL workshop </a> was that large-scale RL applications typically want to use offline RL as part of a bigger system as opposed to being the end-goal in itself. Thus, we propose to shift the focus from algorithm design and offline RL applications to how <em> offline RL can be a launchpad </em>, i.e., a tool or a starting point, for solving challenges in sequential decision-making such as exploration, generalization, transfer, safety, and adaptation. Particularly, we are interested in studying and discussing methods for learning expressive models, policies, skills and value functions from data that can help us make progress towards efficiently tackling these challenges, which are otherwise often intractable. 
-</p> -->
-<!-- 
+We propose a workshop to investigate the following core premise: reward-free interactions are abundant in the real world, often generated both by AI systems and humans. Indeed, the difficulty of reward design can be sidestepped by considering alternative learning signals that are easy to collect such as demonstrations or preferences. With the success of language and vision  in leveraging large data to create generalist agents, one of the key objectives of this workshop is to ask the question of how far we can progress in the goal of creating similar generalist behavior agents using reward-free interactions. This workshop facilitates a confluence between researchers working on these two often disjoint areas—those exploring how to make the best use of reward-free interactions and those exploring scalable alternative learning signals to make agents more capable. The discussions sparked by the ongoing work in this space can inspire novel algorithms/methods/benchmarks that would allow us to take a step in making training general-purpose RL agents more practical.  
+
+Our invited speakers are researching reward-free RL algorithms, from self-supervised learning in RL to unsupervised pretraining methods, from preference learning to learning from observations, as well as speakers whose focus areas present new and interesting decision-making challenges where structured reward functions are not readily available. Our panel discussions and Q&A sessions focus on understanding the key foundational research challenges in how reward-free objectives can be used to leverage existing data and applied to novel applications. 
+
+
+
+
+
+
+
 <p>
-<b> Topics to be discussed </b>. To this end, we have invited new speakers researching ways to use making offline data useful in various ways for RL, as well as speakers whose focus areas present new and interesting decision-making challenges which can benefit from using offline RL as a tool. We are also organizing a panel discussion,  focused on understanding the key foundational research challenges in learning to bootstrap from offline datasets.  We will encourage discussions and contributions around (but not limited to) the following topics that are important in the context of utilizing RL+X datasets:
-</p>
+<b> Topics of Interest </b>. We will encourage discussions and contributions around (but not limited to) the following topics that are important in the context of utilizing reward-free RL:
 <ul>
-<li> Learning from offline preferences, language, cross-embodiment, video or synthetic datasets </li>
-<li> Learning representations, skills, safety or social constraints from offline data </li>
-<li> Training foundational models for efficient adaptation/finetuning</li>
-<li> Representation learning from static datasets </li>
-<li> Offline goal-conditioned behavior learning; </li>
-<li> Offline policy selection</li>
-<li> Data collection for efficient downstream RL finetuning </li>
-<li> RL with demonstration data </li>
+<li> Reward-Free Task Specification: Learning from  preferences, language, cross-embodiment, social constraints, safety, demonstrations, implicit human feedback. </li>
+<li> Utilizing large-scale reward-free data: Learning representations, skills, from video, and novel datasets. </li>
+<li> Utilizing foundational models for efficient adaptation/finetuning.</li>
+<li> Using reward-free interactions: exploration, sample efficiency, unsupervised skill learning, self-supervised objectives, goal-conditioning, and model learning for RL. </li>
 </ul>
-</div> -->
+</div>
 
 <!-- <p>
 Submission site: <a href="">  </a>
