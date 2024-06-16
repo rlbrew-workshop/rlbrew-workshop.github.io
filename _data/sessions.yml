@@ -1,378 +1,261 @@
-# - id: 1
-#   papers:
-#   - authors: Soysal Degirmenci, Chris Jones
-#     camera_ready: 'https://drive.google.com/file/d/1m-e3scDH9M-YaZNfBTQmCGjM7PDqQSPF/view?usp=sharing'
-#     id: 2
-#     kind: poster
-#     supplement: true
-#     title: Benchmarking Offline Reinforcement Learning Algorithms for E-Commerce Order
-#       Fraud Evaluation
-#     url: ''
-#   - authors: Brahma S. Pavse, Josiah P. Hanna
-#     camera_ready: https://drive.google.com/file/d/1vKPzYv45c16_uzLbOhuFbNMW0otKpvWl/view?usp=sharing
-#     id: 3
-#     kind: poster
-#     supplement: true
-#     title: Scaling Marginalized Importance Sampling to High-Dimensional State-Spaces
-#       via State Abstraction
-#     url: https://drive.google.com/file/d/13DZbFtDOPuaPwiPKL0trsxIcNwqKmOoU/view?usp=share_link
-#   - authors: Shengpu Tang, Felipe Vieira Frujeri, Dipendra Misra, Alex Lamb, John
-#       Langford, Paul Mineiro, Sebastian Kochman
-#     camera_ready: 'https://drive.google.com/file/d/1C7siqGedbhDJf1liHuGy6PD_lsGwPgmi/view?usp=sharing'
-#     id: 4
-#     kind: poster
-#     supplement: true
-#     title: Towards Data-Driven Offline Simulations of Online Reinforcement Learning
-#     url: ''
-#   - authors: David Brandfonbrener, Stephen Tu, Avi Singh, Stefan Welker, Chad Boodoo,
-#       Nikolai Matni, Jake Varley
-#     camera_ready: https://drive.google.com/file/d/1pftRKBt1_FwsA7_p0LzF5NoZIfVxNDYV/view?usp=sharing
-#     id: 6
-#     kind: poster
-#     supplement: false
-#     title: 'Visual Backtracking Teleoperation: A Data Collection Protocol for Offline
-#       Image-Based RL'
-#     url: https://www.youtube.com/watch?v=QC4UvQISm9o
-#   - authors: Maxime Gasse, Damien Grasset, Guillaume Gaudron, Pierre-Yves Oudeyer
-#     camera_ready: https://drive.google.com/file/d/1g1ydotSHSNA7OPmPBlED4im9FJHfYN4B/view?usp=sharing
-#     id: 8
-#     kind: poster
-#     supplement: false
-#     title: Using Confounded Data in Offline RL
-#     url: https://youtu.be/dHEY_0PgT98
-#   - authors: Briton Park, Angela Zhou, Bin Yu, Carrie Wu
-#     camera_ready: https://drive.google.com/file/d/1sfhF5CEZtq3M5a7NqNTkNAu8l_p-TzIg/view?usp=sharing
-#     id: 11
-#     kind: poster
-#     supplement: false
-#     title: 'Offline evaluation in RL: soft stability weighting to combine fitted Q-learning
-#       and model-based methods'
-#     url: https://drive.google.com/file/d/1moVpQiSBFPwbObB-ftpgZ3KtQRgWDhMk/view?usp=share_link
-#   - authors: Benjamin Eysenbach, Matthieu Geist, Sergey Levine, Ruslan Salakhutdinov
-#     camera_ready: ''
-#     id: 12
-#     kind: poster
-#     supplement: false
-#     title: A Connection between One-Step Regularization and Critic Regularization
-#       in Reinforcement Learning
-#     url: https://recorder-v3.slideslive.com/?share=78338&s=a821486b-7500-4d2b-8162-ccee532e0cbb
-#   - authors: Medric B. Djeafea Sonwa, Johanna Hansen, Eugene Belilovsky
-#     camera_ready: 'https://drive.google.com/file/d/1ehkAM6vcYOmkHm3O72cG3PnMPb43V31p/view?usp=share_link'
-#     id: 14
-#     kind: poster
-#     supplement: false
-#     title: Imitation from Observation With Bootstrapped Contrastive Learning
-#     url: ''
-#   - authors: Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, {*Vikash
-#       Kmar, *Amy Zhang}
-#     camera_ready: 'https://drive.google.com/file/d/1mQwDSZCs3zN_c7hTfah-Jy6m4BvQJHz2/view?usp=share_link'
-#     id: 15
-#     kind: oral
-#     supplement: true
-#     title: 'VIP: Towards Universal Visual Reward and Representation via Value-Implicit
-#       Pre-Training '
-#     url: ''
-#   - authors: Dan Qiao, Yu-Xiang Wang
-#     camera_ready: ''
-#     id: 16
-#     kind: poster
-#     supplement: true
-#     title: "Near-Optimal Deployment Efficiency in Reward-Free\r\nReinforcement Learning\
-#       \ with Linear Function\r\nApproximation"
-#     url: https://drive.google.com/file/d/14QtZMgCePryD3xDMP8XpDCNAI19e__jr/view?usp=sharing
-#   - authors: Ashish Kumar, Ilya Kuzovkin
-#     camera_ready: https://drive.google.com/file/d/1oQRInCUJoeSdRK8xkt1TAXCSdrJ3X29U/view?usp=share_link
-#     id: 17
-#     kind: poster
-#     supplement: true
-#     title: 'Offline Robot Reinforcement Learning with Uncertainty-Guided Human Expert
-#       Sampling '
-#     url: https://drive.google.com/file/d/1RArecNEYP96K6rCWLgWbqshLU4LPAcVc/view?usp=share_link
-#   - authors: Ingook Jang, Seonghyun Kim
-#     camera_ready: https://drive.google.com/file/d/1FAOLmUhbw6upUDkeLkeLrXz6c194pt81/view?usp=share_link
-#     id: 18
-#     kind: poster
-#     supplement: true
-#     title: Uncertainty-Driven Pessimistic Q-Ensemble for Offline-to-Online Reinforcement
-#       Learning
-#     url: https://drive.google.com/file/d/1FxNYfL5xOYGW9hidHLUaZO6Zypg0d6wF/view?usp=share_link
-#   - authors: Xiao Ma, Bingyi Kang, Zhongwen Xu, Min Lin, Shuicheng YAN
-#     camera_ready: https://drive.google.com/file/d/1C4HSpDRjuyWfXKfZNYQAFriDHBvlz77C/view?usp=sharing
-#     id: 19
-#     kind: poster
-#     supplement: true
-#     title: Mutual Information Regularized Offline Reinforcement Learning
-#     url: https://drive.google.com/file/d/1LcpNFUQ0zsWql5GKfRbbt_Hgb03TRFus/view?usp=share_link
-#   - authors: Hiroki Furuta, Yusuke Iwasawa, Yutaka Matsuo, Shixiang Shane Gu
-#     camera_ready: ''
-#     id: 20
-#     kind: poster
-#     supplement: false
-#     title: Control Graph as Unified IO for Morphology-Task Generalization
-#     url: https://recorder-v3.slideslive.com/?share=76568&s=6bc8b0d4-0f4d-4f13-bc2e-b1e4b63836d1
-#   - authors: Yicheng Luo, Zhengyao Jiang, Samuel Cohen, Edward Grefenstette, Marc
-#       Peter Deisenroth
-#     camera_ready: https://drive.google.com/file/d/11sBicHFrReYGJDFhtqvNHuJih57jBHmU/view?usp=sharing
-#     id: 22
-#     kind: poster
-#     supplement: true
-#     title: Optimal Transport for Offline Imitation Learning
-#     url: https://recorder-v3.slideslive.com/?share=77731&s=06e83ef2-d826-4e3f-a9cc-dd2c1509015a
-#   - authors: Phillip Swazinna, Steffen Udluft, Thomas Runkler
-#     camera_ready: https://drive.google.com/file/d/1YCW9CTi_peDOWSSY1pkxhOdNnYGWwueQ/view?usp=sharing
-#     id: 25
-#     kind: poster
-#     supplement: false
-#     title: Towards User-Interactive Offline Reinforcement Learning
-#     url: https://recorder-v3.slideslive.com/?share=77276&s=e267e44d-902f-4642-a2dd-20536cb22440
-#   - authors: "Zhengyao Jiang, Tianjun Zhang, Michael Janner, Yueying Li, Tim Rockt\xE4\
-#       schel, Edward Grefenstette, Yuandong Tian"
-#     camera_ready: https://drive.google.com/file/d/1GP08kaMfYzlDQSQXKY5Sojl-nMLpi1Q5/view?usp=sharing
-#     id: 26
-#     kind: oral
-#     supplement: true
-#     title: Efficient Planning in a Compact Latent Action Space
-#     url: https://drive.google.com/file/d/1j78uB9on9bW_4MLqfxa5aUL-RluCiHKg/view?usp=sharing
-#   - authors: Alexander Nikulin, Vladislav Kurenkov, Denis Tarasov, Dmitry Akimov,
-#       Sergey Kolesnikov
-#     camera_ready: https://drive.google.com/file/d/16Kptp8ECuMoaNe-BoxQWdENA5FqTdac-/view?usp=share_link
-#     id: 28
-#     kind: poster
-#     supplement: true
-#     title: 'Q-Ensemble for Offline RL: Don''t Scale the Ensemble, Scale the Batch
-#       Size'
-#     url: https://recorder-v3.slideslive.com/?share=76986&s=838a932b-bd9a-49a8-837b-8e5a1635c98b
-#   - authors: Denis Tarasov, Alexander Nikulin, Dmitry Akimov, Vladislav Kurenkov,
-#       Sergey Kolesnikov
-#     camera_ready: https://drive.google.com/file/d/18DfrEn6lqjCNHE3UFmAmGEUx-9chvApA/view?usp=sharing
-#     id: 29
-#     kind: poster
-#     supplement: false
-#     title: 'CORL: Research-oriented Deep Offline Reinforcement Learning Library'
-#     url: https://recorder-v3.slideslive.com/?share=77058&s=a6c8ff95-eaf4-43cb-be1a-132e79cd56ad
-#   - authors: Pietro Mazzaglia, Tim Verbelen, Bart Dhoedt, Alexandre Lacoste, Sai Rajeswar
-#     camera_ready: https://drive.google.com/file/d/1fJuGeW91nTXJxh4BQuIsiRpzpYfK5xY0/view?usp=sharing
-#     id: 30
-#     kind: oral
-#     supplement: true
-#     title: 'Choreographer: Learning and Adapting Skills in Imagination'
-#     url: https://drive.google.com/file/d/1KCJjJYxDA1fcS3O7Xm5JQvbDK5HydVcR/view?usp=sharing
-#   - authors: Yuda Song*, Yifei Zhou*, Ayush Sekhari, J. Andrew Bagenll, Akshay Krishnamurthy,
-#       Wen Sun
-#     camera_ready: https://drive.google.com/file/d/1xqOdCOwHTRvWExtzhGR4uNfMUigj12eb/view?usp=sharing
-#     id: 31
-#     kind: poster
-#     supplement: true
-#     title: 'Hybrid RL: Using Both Offline and Online Data can Make RL Efficient'
-#     url: https://recorder-v3.slideslive.com/?share=76586&s=b50540fe-ee19-49c0-b598-021038a83734
-#   - authors: "Gaoyue Zhou, Victoria Dean, Mohan Kumar Srirama, Aravind Rajeswaran,\
-#       \ Jyothish Pari,\r\nKyle Hatch, Aryan Jain, Tianhe Yu,Pieter Abbeel, Lerrel\
-#       \ Pinto, Chelsea Finn, Abhinav Gupta"
-#     camera_ready: ''
-#     id: 32
-#     kind: poster
-#     supplement: true
-#     title: 'Train Offline, Test Online: A Real Robot Learning Benchmark'
-#     url: https://drive.google.com/file/d/1_MwXOQhHE_JXaxA3bxOo0ptVa1ZcdEaI/view?usp=sharing
-#   - authors: Xumei Xi, Christina Lee Yu, Yudong Chen
-#     camera_ready: ''
-#     id: 33
-#     kind: poster
-#     supplement: true
-#     title: Matrix Estimation for Offline Evaluation in Reinforcement Learning with
-#       Low-Rank Structure
-#     url: https://drive.google.com/file/d/1oMTEgXhyT3CFsfDMxurSyWSOkkmFxLHr/view?usp=sharing
-#   - authors: Dmitry Akimov, Vladislav Kurenkov, Alexander Nikulin, Denis Tarasov,
-#       Sergey Kolesnikov
-#     camera_ready: https://drive.google.com/file/d/1Aza-4M5uwMwB9PaZ5JIsziZMwtlyYT7I/view?usp=sharing
-#     id: 34
-#     kind: poster
-#     supplement: false
-#     title: 'Let Offline RL Flow: Training Conservative Agents in the Latent Space
-#       of Normalizing Flows'
-#     url: https://recorder-v3.slideslive.com/?share=78187&s=d9b9436b-4b55-4963-8b82-d05561568433
-#   - authors: Gaoyue Zhou, Liyiming Ke, Siddhartha Srinivasa, Abhinav Gupta, Aravind
-#       Rajeswaran, Vikash Kumar
-#     camera_ready: https://drive.google.com/file/d/1hEAr6Ha1x5zIEtTpwRfk1kQU-pRQoE4k/view?usp=sharing
-#     id: 35
-#     kind: poster
-#     supplement: true
-#     title: Offline Reinforcement Learning on Real Robot with Realistic Data Sources
-#     url: https://recorder-v3.slideslive.com/#/share?share=78237&s=3e150ad9-27a6-4cfc-a46f-d4e79675106c
-#   - authors: Changyeon Kim, Junsu Kim, Younggyo Seo, Kimin Lee, Honglak Lee, Jinwoo
-#       Shin
-#     camera_ready: ''
-#     id: 37
-#     kind: poster
-#     supplement: true
-#     title: Dynamics-Augmented Decision Transformer for Offline Dynamics Generalization
-#     url: https://drive.google.com/file/d/1LF9GKDvhq-Lp99ACNgdBF2gPypHNd4Ex/view?usp=share_link
-#   - authors: Eddy Hudson, Ishan Durugkar, Garrett Warnell, Peter Stone
-#     camera_ready: ''
-#     id: 38
-#     kind: poster
-#     supplement: false
-#     title: 'ABC: Adversarial Behavioral Cloning for Offline Mode-Seeking Imitation
-#       Learning'
-#     url: https://drive.google.com/file/d/1WRc68vlBMut4RFqZu2SEVElFLZm_HAtN/view?usp=share_link
-#   - authors: Shripad Deshmukh, Arpan Dasgupta, Chirag Agarwal, Nan Jiang, Balaji Krishnamurthy,
-#       Georgios Theocharous, Jayakumar Subramanian
-#     camera_ready: https://drive.google.com/file/d/1odwKI3u_a1YT9CxY0jpCkHGuRQUlT4Fz/view?usp=share_link
-#     id: 41
-#     kind: poster
-#     supplement: false
-#     title: Trajectory-based Explainability Framework for Offline RL
-#     url: https://drive.google.com/file/d/1nEOOo-SZ19yZy0Dl2qN5xhp9sK15n1nY/view?usp=share_link
-#   - authors: Gunshi Gupta, Tim G. J. Rudner, Rowan Thomas McAllister, Adrien Gaidon,
-#       Yarin Gal
-#     camera_ready: https://drive.google.com/file/d/18hcRGYEudLpY9_WRmrmaPfco_sfchK6t/view?usp=sharing
-#     id: 42
-#     kind: poster
-#     supplement: false
-#     title: Can Active Sampling Reduce Causal Confusion in Offline RL?
-#     url: https://youtu.be/tCViJVdd9aY
-#   - authors: "Fengdi Che, Xiru Zhu, Doina Precup, David Meger, \r\nGregory Dudek"
-#     camera_ready: https://drive.google.com/file/d/1mg9u4z36ztLEGpAgM0q_r7pglZBSRlvL/view?usp=sharing
-#     id: 43
-#     kind: poster
-#     supplement: true
-#     title: "Bayesian Q-learning with Imperfect Expert \r\nDemonstrations"
-#     url: https://recorder-v3.slideslive.com/?share=77925&s=f22b64c4-cab4-4a5b-8f36-5db2fd4ce7c2
-#   - authors: Jesse Zhang, Karl Pertsch, Jiahui Zhang, Taewook Nam, Sung Ju Hwang,
-#       Xiang Ren, Joseph J. Lim
-#     camera_ready: https://drive.google.com/file/d/1E165PWrKjTEbTnpkM90URhrV9Fl4kxNA/view?usp=sharing
-#     id: 44
-#     kind: poster
-#     supplement: false
-#     title: 'SPRINT: Scalable Semantic Policy Pre-training via Language Instruction
-#       Relabeling'
-#     url: https://recorder-v3.slideslive.com/#/share?share=78012&s=933a27cc-f13a-478d-a3f6-fc6a4299409f
-#   - authors: Braham Snyder, Yuke Zhu
-#     camera_ready: ''
-#     id: 46
-#     kind: poster
-#     supplement: true
-#     title: 'Raisin: Residual Algorithms for Versatile Offline Reinforcement Learning'
-#     url: https://drive.google.com/file/d/1kEtbiXV5zz2L6Snz_KjH7ZsBnNbfznrk/view?usp=sharing
-#   - authors: "Zakariae EL ASRI, Cl\xE9ment RAMBOUR, Nicolas THOME, Vincent Le Guen"
-#     camera_ready: https://drive.google.com/file/d/1KjEUFz_oiroVi5isL4LQtCW-m7IUhFB2/view?usp=sharing
-#     id: 47
-#     kind: poster
-#     supplement: true
-#     title: "Residual Model-Based Reinforcement Learning for\r\n Physical Dynamics"
-#     url: https://recorder-v3.slideslive.com/?share=78274&s=66648f31-e3a1-4d0e-91e2-0add92a7abe9
-#   - authors: Anurag Koul,Mariano Phielipp, Alan Fern
-#     camera_ready: ''
-#     id: 48
-#     kind: poster
-#     supplement: true
-#     title: 'Offline Policy Comparison with Confidence: Benchmarks and Baselines'
-#     url: https://drive.google.com/file/d/1uhCP1n4wFY3B4Lhxhn96QeVDaTRmGzis/view?usp=sharing
-#   - authors: Shiva Kanth Sujit, Pedro Braga, Jorg Bornschein, Samira Ebrahimi Kahou
-#     camera_ready: ''
-#     id: 49
-#     kind: poster
-#     supplement: false
-#     title: Bridging the Gap Between Offline and Online Reinforcement Learning Evaluation
-#       Methodologies
-#     url: https://recorder-v3.slideslive.com/?share=78091&s=d188ce42-8945-4231-9d9d-72c566ff0e17
-#   - authors: Sunil Madhow, Dan Qiao, Ming Yin, Yu-Xiang Wang
-#     camera_ready: https://drive.google.com/file/d/1I4YI7GFxOwkPrZcJioBqugVCk-JTu_qo/view?usp=sharing
-#     id: 50
-#     kind: poster
-#     supplement: true
-#     title: Offline Policy Evaluation for Reinforcment Learning with Adaptively Collected
-#       Data
-#     url: https://drive.google.com/file/d/15qEC7-wFtfhC3wWG4gGnpVVNy7OXhjGW/view?usp=sharing
-#   - authors: Kyle Hatch, Sarthak J Shetty, Benjamin Eysenbach, Tianhe Yu, Rafael Rafailov,
-#       Ruslan Salakhutdinov, Sergey Levine, Chelsea Finn
-#     camera_ready: https://drive.google.com/file/d/1Y7-DmAo-VTejeM08rHaNUov4F4OThvf9/view?usp=sharing
-#     id: 51
-#     kind: poster
-#     supplement: false
-#     title: Contrastive Example-Based Control
-#     url: https://youtu.be/Ft2bozofYM8
-#   - authors: Jiachen Li, Edwin Zhang, Ming Yin, Qinxun Bai, Yu-Xiang Wang, William
-#       Yang Wang
-#     camera_ready: ''
-#     id: 53
-#     kind: poster
-#     supplement: true
-#     title: Offline Reinforcement Learning with Closed-Form Policy Improvement Operators
-#     url: https://drive.google.com/file/d/1yqIIzb2J47b1ZH0Onz8JypZmDdvvW_J0/view?usp=sharing
-#   - authors: Yang Yue, Bingyi Kang, Xiao Ma, Zhongwen Xu, Gao Huang, Shuicheng Yan
-#     camera_ready: ''
-#     id: 55
-#     kind: poster
-#     supplement: false
-#     title: Boosting Offline Reinforcement Learning via Data Rebalancing
-#     url: https://drive.google.com/file/d/1HpsqMmCrLLKMh9KRmu-jGhR2-vkcMDN7/view?usp=share_link
-#   - authors: Joshua P. Zitovsky, Daniel de Marchi, Rishabh Agarwal, Michael R. Kosorok
-#     camera_ready: https://drive.google.com/file/d/13bsOGx2umUbXNUWy_sms6JEiM3LZsvuc/view?usp=sharing
-#     id: 56
-#     kind: poster
-#     supplement: true
-#     title: Revisiting Bellman Errors for Offline Model Selection
-#     url: https://youtu.be/fqcYDa0bZHs
-#   - authors: Baiting Zhu, Meihua Dang, Aditya Grover
-#     camera_ready: https://openreview.net/pdf?id=tSJ4ykkddy
-#     id: 57
-#     kind: oral
-#     supplement: false
-#     title: Pareto-Efficient Decision Agents for Offline Multi-Objective Reinforcement
-#       Learning
-#     url: https://recorder-v3.slideslive.com/?share=77748&s=b0fe1b9d-3507-489d-b0f6-16e8b9be2c6d
-#   - authors: Richa Verma, Kartik Bharadwaj, Harshad Khadilkar, Balaraman Ravindran
-#     camera_ready: ''
-#     id: 58
-#     kind: poster
-#     supplement: false
-#     title: Guiding Offline Reinforcement Learning Using Safety Expert
-#     url: https://drive.google.com/file/d/1ph5KI3qquS7DvzyOvq-18iW0RcKpycC3/view?usp=sharing
-#   - authors: Alex Beeson, Giovanni Montana
-#     camera_ready: https://drive.google.com/file/d/1yhNmSGCmFS0iWe6f1yreVfsMGLjxFYel/view?usp=sharing
-#     id: 59
-#     kind: poster
-#     supplement: true
-#     title: 'Improving TD3-BC:  Relaxed Policy Constraint for Offline Reinforcement
-#       Learning and Stable Online Fine-Tuning'
-#     url: https://recorder-v3.slideslive.com/?share=78248&s=cd5d6a85-7a8f-4688-8be4-2ce1a6cf4a14
-#   - authors: Charles A. Hepburn, Giovanni Montana
-#     camera_ready: ''
-#     id: 60
-#     kind: poster
-#     supplement: false
-#     title: Model-based Trajectory Stitching for Improved Offline Reinforcement Learning
-#     url: https://drive.google.com/file/d/1o3VWpyQezUqL1HT86rflrNce34YYBtwW/view?usp=sharing
-#   - authors: Alan Clark, Shoaib Ahmed Siddiqui, Robert Kirk, Usman Anwar, Stephen
-#       Chung, David Krueger
-#     camera_ready: https://drive.google.com/file/d/1upn9kTIuei-vF_gD4QVrGm-741USbAyn/view?usp=sharing
-#     id: 61
-#     kind: poster
-#     supplement: true
-#     title: Domain Generalization for Robust Model-Based Offline Reinforcement Learning
-#     url: https://recorder-v3.slideslive.com/#/share?share=77646&s=a11a69b3-bf80-415f-94b7-7354f71a7778
-#   - authors: Jesse Farebrother, Joshua Greaves, Rishabh Agarwal, Charline Le Lan,
-#       Ross Goroshin, Pablo Samuel Castro, Marc G. Bellemare
-#     camera_ready: 'https://drive.google.com/file/d/1N65BeTBAARvP2Oghew233D9EF-GJNXJm/view?usp=share_link'
-#     id: 64
-#     kind: poster
-#     supplement: false
-#     title: 'Proto-Value Networks: Scaling Representation Learning with Auxiliary Tasks'
-#     url: ''
-#   - authors: "Ahmed Touati, J\xE9r\xE9my Rapin, Yann Ollivier"
-#     camera_ready: 'https://drive.google.com/file/d/1WyXoIYZ1M7OS2CA7Wg74bzF0GMd75L0k/view'
-#     id: 65
-#     kind: poster
-#     supplement: false
-#     title: Does Zero-Shot Reinforcement Learning Exist ?
-#     url: ''
-#   - authors: Sofia Hurtado, Radu Marculescu
-#     camera_ready: 'https://drive.google.com/file/d/1bBVmLGJLe9rDeJAKFDO6NfwrEQxxvdHV/view?usp=sharing'
-#     id: 66
-#     kind: poster
-#     supplement: false
-#     title: On- and Offline Multi-agent Reinforcement Learning for Disease Mitigation
-#       using Human Mobility Data
-#     url: ''
-#   title: session_title
+- id: 1
+  papers:
+  - authors: Ademi Adeniji, Amber Xie, Carmelo Sferrazza, Younggyo Seo, Stephen James, Pieter Abbeel
+    camera_ready: 'papers/1_language_reward_modulation_for.pdf'
+    id: 1
+    kind: poster
+    supplement: true
+    title:  
+    url: ''
+  - authors: Ademi Adeniji, Amber Xie, Pieter Abbeel
+    camera_ready: 'papers/2_skill_based_reinforcement_lear.pdf'
+    id: 2
+    kind: poster
+    supplement: true
+    title: Skill-Based Reinforcement Learning with Intrinsic Reward Matching
+    url: ''
+  - authors: Mingkang Wu, Feng Tao, Yongcan Cao
+    camera_ready: 'papers/3_learn_to_outperform_demonstrat.pdf'
+    id: 3
+    kind: poster
+    supplement: true
+    title: Learn to Outperform Demonstrators via Reward and Policy Co-learning
+    url: ''
+  - authors: Dieu-Donné Fangnon, Eduardo H. Ramirez-Rangel
+    camera_ready: 'papers/4_adaptive_deep_q_networks_for_d.pdf'
+    id: 4
+    kind: poster
+    supplement: true
+    title: Adaptive Deep Q-Networks for Decision Making in Non-Stationary Environments: A Case Study with the Wisconsin Card Sorting Test
+    url: ''
+  - authors: Kory Wallace Mathewson
+    camera_ready: 'papers/6_the_reward_problem_where_does_.pdf'
+    id: 5
+    kind: poster
+    supplement: true
+    title: The Reward Problem: Where does the most important signal in reinforcement learning come from?
+    url: ''
+  - authors: Yuxuan Li, Srijita Das, Qinglin Liu, Matthew E. Taylor
+    camera_ready: 'papers/7_integrating_feedback_and_noisy.pdf'
+    id: 6
+    kind: poster
+    supplement: true
+    title: Integrating Feedback and Noisy Preferences for Adaptable Robotic Control
+    url: ''
+  - authors: Anurag Sidharth Aribandi, Connor Mattson, Daniel S. Brown
+    camera_ready: 'papers/8_representation_learning_for_cr.pdf'
+    id: 7
+    kind: poster
+    supplement: true
+    title: Representation Learning for Cross-Embodiment Inverse Reinforcement Learning from Mixed-Quality Demonstrations
+    url: ''
+  - authors: Max Rudolph, Caleb Chuck, Kevin Black, Misha Lvovsky, Scott Niekum, Amy Zhang
+    camera_ready: 'papers/9_learning_action_based_represen.pdf'
+    id: 8
+    kind: poster
+    supplement: true
+    title: Learning Action-based Representations Using Invariance
+    url: ''
+  - authors: Andi Peng, Yuying Sun, Tianmin Shu, David Abel
+    camera_ready: 'papers/10_pragmatic_feature_preferences_.pdf'
+    id: 9
+    kind: poster
+    supplement: true
+    title: Pragmatic Feature Preferences: Learning Reward-Relevant Preferences from Human Input
+    url: ''
+  - authors: Alexander Levine, Peter Stone, Amy Zhang
+    camera_ready: 'papers/11_multistep_inverse_is_not_all_y.pdf'
+    id: 10
+    kind: poster
+    supplement: true
+    title: Multistep Inverse Is Not All You Need
+    url: ''
+  - authors: Yashwanthi Anand, Sandhya Saisubramanian
+    camera_ready: 'papers/12_adaptive_feedback_selection_fo.pdf'
+    id: 11
+    kind: poster
+    supplement: true
+    title: Adaptive Feedback Selection for Learning to Avoid Negative Side Effects in Autonomous Agents
+    url: ''
+  - authors: Zhaolin Gao, Jonathan Daniel Chang, Wenhao Zhan, Owen Oertell, Gokul Swamy, Kianté Brantley, Thorsten Joachims, J. Andrew Bagnell, Jason D. Lee, Wen Sun
+    camera_ready: 'papers/14_rebel_reinforcement_learning_v.pdf'
+    id: 12
+    kind: poster
+    supplement: true
+    title: REBEL: Reinforcement Learning via Regressing Relative Rewards
+    url: ''
+  - authors: Nicolas Espinosa Dice, Gokul Swamy, Sanjiban Choudhury, Wen Sun
+    camera_ready: 'papers/15_efficient_inverse_reinforcemen.pdf'
+    id: 13
+    kind: poster
+    supplement: true
+    title: Efficient Inverse Reinforcement Learning without Compounding Errors
+    url: ''
+  - authors: Jingwu Tang, Gokul Swamy, Fei Fang, Steven Wu
+    camera_ready: 'papers/16_multi_agent_imitation_learning.pdf'
+    id: 14
+    kind: poster
+    supplement: true
+    title: Multi-Agent Imitation Learning: Value is Easy, Regret is Hard
+    url: ''
+  - authors: Utsav Singh, Wesley A Suttle, Brian M. Sadler, Vinay P. Namboodiri, Amrit Bedi
+    camera_ready: 'papers/17_piper_primitive_informed_prefe.pdf'
+    id: 15
+    kind: poster
+    supplement: true
+    title: PIPER: Primitive-Informed Preference-based Hierarchical Reinforcement Learning via Hindsight Relabeling
+    url: ''
+  - authors: Mingqi Yuan, Roger Creus Castanyer, Bo Li, Xin Jin, Glen Berseth, Wenjun Zeng
+    camera_ready: 'papers/18_rlexplore_accelerating_researc.pdf'
+    id: 16
+    kind: poster
+    supplement: true
+    title: RLeXplore: Accelerating Research in Intrinsically-Motivated Reinforcement Learning
+    url: ''
+  - authors: Harshit Sikchi, Caleb Chuck, Amy Zhang, Scott Niekum
+    camera_ready: 'papers/21_a_dual_approach_to_imitation_l.pdf'
+    id: 17
+    kind: poster
+    supplement: true
+    title: A Dual Approach to Imitation Learning from Observations with Suboptimal Offline Datasets
+    url: ''
+  - authors: Zizhao Wang, Jiaheng Hu, Caleb Chuck, Stephen Chen, Roberto Martín-Martín, Amy Zhang, Scott Niekum, Peter Stone
+    camera_ready: 'papers/22_skild_unsupervised_skill_disco.pdf'
+    id: 18
+    kind: poster
+    supplement: true
+    title: SkiLD: Unsupervised Skill Discovery Guided by Local Dependencies
+    url: ''
+  - authors: Hao Sun, Mihaela van der Schaar
+    camera_ready: 'papers/23_inverse_rlignment_inverse_rein.pdf'
+    id: 19
+    kind: poster
+    supplement: true
+    title: Inverse-RLignment: Inverse Reinforcement Learning from Demonstrations for LLM Alignment
+    url: ''
+  - authors: Harshit Sikchi, Siddhant Agarwal, Peter Stone, Amy Zhang, Scott Niekum
+    camera_ready: 'papers/24_value_implicit_pretraining_doe.pdf'
+    id: 20
+    kind: poster
+    supplement: true
+    title: Value Implicit Pretraining does not learn Representations suitable for Reinforcement Learning
+    url: ''
+  - authors: Rafael Rafailov, Yaswanth Chittepu, Ryan Park, Harshit Sikchi, Joey Hejna, W. Bradley Knox, Chelsea Finn, Scott Niekum
+    camera_ready: 'papers/25_scaling_laws_for_reward_model_.pdf'
+    id: 21
+    kind: poster
+    supplement: true
+    title: Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms
+    url: ''
+  - authors: Jakob Karalus
+    camera_ready: 'papers/26_tell_my_why_training_preferenc.pdf'
+    id: 22
+    kind: poster
+    supplement: true
+    title: Tell my why: Training preferences-based RL with human preferences and step-level explanations
+    url: ''
+  - authors: Jiaheng Hu, Zizhao Wang, Peter Stone, Roberto Martín-Martín
+    camera_ready: 'papers/27_disentangled_unsupervised_skil.pdf'
+    id: 23
+    kind: poster
+    supplement: true
+    title: Disentangled Unsupervised Skill Discovery for Efficient Hierarchical Reinforcement Learning
+    url: ''
+  - authors: Adam Jelley, Yuhan Cao, David Bignell, Sam Devlin, Tabish Rashid
+    camera_ready: 'papers/28_aligning_agents_like_large_lan.pdf'
+    id: 24
+    kind: poster
+    supplement: true
+    title: Aligning Agents like Large Language Models
+    url: ''
+  - authors: Cevahir Koprulu, Thiago D. Simão, Nils Jansen, ufuk topcu
+    camera_ready: 'papers/29_prioritizing_safety_via_curric.pdf'
+    id: 25
+    kind: poster
+    supplement: true
+    title: Prioritizing safety via curriculum learning
+    url: ''
+  - authors: Pranav Putta, Edmund Mills, Naman Garg, Chelsea Finn, Divyansh Garg, Rafael Rafailov
+    camera_ready: 'papers/30_agent_q_combining_search_self_.pdf'
+    id: 26
+    kind: poster
+    supplement: true
+    title: Agent Q: Combining Search, Self-Critique and Reinforcement Learning for Autonomous Web Agents
+    url: ''
+  - authors: Rishav Bhagat, Jonathan C Balloch, Zhiyu Lin, Mark Riedl
+    camera_ready: 'papers/31_external_model_motivated_agent.pdf'
+    id: 27
+    kind: poster
+    supplement: true
+    title: External Model Motivated Agents: Reinforcement Learning for Enhanced Environment Sampling
+    url: ''
+  - authors: Yuda Song, Gokul Swamy, Aarti Singh, Drew Bagnell, Wen Sun
+    camera_ready: 'papers/32_understanding_preference_fine_.pdf'
+    id: 28
+    kind: poster
+    supplement: true
+    title: 	Understanding Preference Fine-Tuning Through the Lens of Coverage
+    url: ''
+  - authors: Duo XU
+    camera_ready: 'papers/33_generalization_of_temporal_log.pdf'
+    id: 29
+    kind: poster
+    supplement: true
+    title: Generalization of Temporal Logic Tasks via Future Dependent Options
+    url: ''
+  - authors: Andrew Levy, Alessandro G Allievi, George Konidaris
+    camera_ready: 'papers/34_learning_abstract_skillsets_wi.pdf'
+    id: 30
+    kind: poster
+    supplement: true
+    title: Learning Abstract Skillsets with Empowerment Bandits
+    url: ''
+  - authors: Siddhant Agarwal, Harshit Sikchi, Peter Stone, Amy Zhang
+    camera_ready: 'papers/37_proto_successor_measure_repres.pdf'
+    id: 31
+    kind: poster
+    supplement: true
+    title: Proto Successor Measure: Representing the space of all possible solutions of Reinforcement Learning
+    url: ''
+  - authors: Carlo Romeo, Andrew D. Bagdanov
+    camera_ready: 'papers/38_offline_reinforcement_learning.pdf'
+    id: 32
+    kind: poster
+    supplement: true
+    title: Offline Reinforcement Learning with Imputed Rewards
+    url: ''
+  - authors: Muhan Lin, Shuyang Shi, Yue Guo, Behdad Chalaki, Vaishnav Tadiparthi, Simon Stepputtis, Joseph Campbell, Katia P. Sycara
+    camera_ready: 'papers/39_a_reward_analysis_of_reinforce.pdf'
+    id: 33
+    kind: poster
+    supplement: true
+    title: A Reward Analysis of Reinforcement Learning from Large Language Model Feedback
+    url: ''
+  - authors: Timo Kaufmann, Jannis Blüml, Antonia Wüst, Quentin Delfosse, Kristian Kersting, Eyke Hüllermeier
+    camera_ready: 'papers/40_ocalm_object_centric_assessmen.pdf'
+    id: 34
+    kind: poster
+    supplement: true
+    title: OCALM: Object-Centric Assessment with Language Models
+    url: ''
+  - authors: Dipendra Misra, Akanksha Saran, Tengyang Xie, Alex Lamb, John Langford
+    camera_ready: 'papers/41_towards_principled_representat.pdf'
+    id: 35
+    kind: poster
+    supplement: true
+    title: Towards Principled Representation Learning from Videos for Reinforcement Learning
+    url: ''
+  - authors: Scott Jeen, Jonathan Cullen
+    camera_ready: 'papers/42_dynamics_generalisation_with_b.pdf'
+    id: 36
+    kind: poster
+    supplement: true
+    title: Dynamics Generalisation with Behaviour Foundation Models
+    url: ''
+  - authors: Vincent Michalski, Somjit Nath, Derek Nowrouzezahrai, Doina Precup, Samira Ebrahimi Kahou
+    camera_ready: 'papers/43_task_oriented_slot_based_cumul.pdf'
+    id: 37
+    kind: poster
+    supplement: true
+    title: Task-Oriented Slot-Based Cumulant Discovery in General Value Functions
+    url: ''
