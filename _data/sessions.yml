@@ -5,7 +5,7 @@
     id: 1
     kind: poster
     supplement: true
-    title:  
+    title: Language Reward Modulation for Pretraining Reinforcement Learning
     url: ''
   - authors: Ademi Adeniji, Amber Xie, Pieter Abbeel
     camera_ready: 'papers/2_skill_based_reinforcement_lear.pdf'
