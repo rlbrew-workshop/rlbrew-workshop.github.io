@@ -9,24 +9,25 @@ layout: default
 <!-- <p>The Zoom meeting rooms will be open only during the poster session timeslots (see the <a href="/schedule.html">Schedule</a>), during which authors will join the meeting rooms to allow you to ask them questions face-to-face. We encourage you to first watch the presentation associated with the paper, and then join the Zoom meeting room to ask questions and engage in further discussion.</p> -->
 </div>
 
-{% for session in site.data.sessions %}
+<!-- {% for session in site.data.sessions %}
 <div class="row">
-<!-- <a name="session-{{ session.id }}"></a>
-<h3>{{ session.title }}</h3> -->
+<a name="session-{{ session.id }}"></a>
+<h3>{{ session.title }}</h3>
 <table class="table table-striped">
 <thead>
      <tr>
           <th> Oral Presentations (PDF) </th>
           <th>Authors</th>
-          <!-- <th>Track</th> -->
+          <th>Track</th>
           <th>Video</th>
 </thead>
-<tbody>
+<tbody> 
+-->
 
 
 {% for paper in session.papers %}
 
-{% if paper.kind == "oral" %}
+<!-- {% if paper.kind == "oral" %}
 <tr>
 
 <td>
@@ -38,7 +39,7 @@ layout: default
 
 <td>
 {{ paper.authors }}
-</td>
+</td> -->
 
 <!-- <td>
 {% if paper.track == "blue_sky" %}
@@ -54,7 +55,7 @@ Research
 {% endif %}
 </td> -->
 
-<td>
+<!-- <td>
 {% if paper.url.size > 1 %}
 <a href="{{ paper.url }}" target="_blank">Video</a>
 {% endif %}
@@ -75,10 +76,10 @@ Research
      <tr>
           <th> Poster Presentations (PDF) </th>
           <th>Authors</th>
-          <!-- <th>Track</th> -->
+          <th>Track</th>
           <th>Video</th>
 </thead>
-<tbody>
+<tbody> -->
 
 <tr></tr>
 {% for paper in session.papers %}
@@ -97,25 +98,6 @@ Research
 {{ paper.authors }}
 </td>
 
-<!-- <td>
-{% if paper.track == "blue_sky" %}
-Blue Sky Ideas
-{% elsif paper.track == "research" %}
-Research
-{% endif %}
-</td>
- -->
-<!-- <td>
-{% if paper.camera_ready %}
-<a href="/pdf/BAICS_{{ paper.id }}.pdf" target="_blank">PDF</a>
-{% endif %}
-</td> -->
-
-<td>
-{% if paper.url.size > 1 %}
-<a href="{{ paper.url }}" target="_blank">Video</a>
-{% endif %}
-</td>
 </tr>
 {% endif %}
 
@@ -128,8 +110,8 @@ Research
 
 
 
-
+<!-- 
 </div>
 {% endfor %}
 
-</div>
+</div> -->
