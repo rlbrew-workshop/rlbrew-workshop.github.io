@@ -26,7 +26,7 @@
     id: 4
     kind: poster
     supplement: true
-    title: Adaptive Deep Q-Networks for Decision Making in Non-Stationary Environments: A Case Study with the Wisconsin Card Sorting Test
+    title: "Adaptive Deep Q-Networks for Decision Making in Non-Stationary Environments: A Case Study with the Wisconsin Card Sorting Test"
     url: ''
   - authors: Kory Wallace Mathewson
     camera_ready: 'papers/6_the_reward_problem_where_does_.pdf'
@@ -61,7 +61,7 @@
     id: 9
     kind: poster
     supplement: true
-    title: Pragmatic Feature Preferences: Learning Reward-Relevant Preferences from Human Input
+    title: "Pragmatic Feature Preferences: Learning Reward-Relevant Preferences from Human Input"
     url: ''
   - authors: Alexander Levine, Peter Stone, Amy Zhang
     camera_ready: 'papers/11_multistep_inverse_is_not_all_y.pdf'
@@ -96,7 +96,7 @@
     id: 14
     kind: poster
     supplement: true
-    title: Multi-Agent Imitation Learning: Value is Easy, Regret is Hard
+    title: "Multi-Agent Imitation Learning: Value is Easy, Regret is Hard"
     url: ''
   - authors: Utsav Singh, Wesley A Suttle, Brian M. Sadler, Vinay P. Namboodiri, Amrit Bedi
     camera_ready: 'papers/17_piper_primitive_informed_prefe.pdf'
@@ -124,14 +124,14 @@
     id: 18
     kind: poster
     supplement: true
-    title: SkiLD: Unsupervised Skill Discovery Guided by Local Dependencies
+    title: "SkiLD: Unsupervised Skill Discovery Guided by Local Dependencies"
     url: ''
   - authors: Hao Sun, Mihaela van der Schaar
     camera_ready: 'papers/23_inverse_rlignment_inverse_rein.pdf'
     id: 19
     kind: poster
     supplement: true
-    title: Inverse-RLignment: Inverse Reinforcement Learning from Demonstrations for LLM Alignment
+    title: "Inverse-RLignment: Inverse Reinforcement Learning from Demonstrations for LLM Alignment"
     url: ''
   - authors: Harshit Sikchi, Siddhant Agarwal, Peter Stone, Amy Zhang, Scott Niekum
     camera_ready: 'papers/24_value_implicit_pretraining_doe.pdf'
@@ -187,7 +187,7 @@
     id: 27
     kind: poster
     supplement: true
-    title: External Model Motivated Agents: Reinforcement Learning for Enhanced Environment Sampling
+    title: "External Model Motivated Agents: Reinforcement Learning for Enhanced Environment Sampling"
     url: ''
   - authors: Yuda Song, Gokul Swamy, Aarti Singh, Drew Bagnell, Wen Sun
     camera_ready: 'papers/32_understanding_preference_fine_.pdf'
@@ -215,7 +215,7 @@
     id: 31
     kind: poster
     supplement: true
-    title: Proto Successor Measure: Representing the space of all possible solutions of Reinforcement Learning
+    title: "Proto Successor Measure: Representing the space of all possible solutions of Reinforcement Learning"
     url: ''
   - authors: Carlo Romeo, Andrew D. Bagdanov
     camera_ready: 'papers/38_offline_reinforcement_learning.pdf'
