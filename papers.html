@@ -81,7 +81,7 @@ Research
 </thead>
 <tbody> -->
 
-<tr></tr>
+<!-- <tr></tr>
 {% for paper in session.papers %}
 
 {% if paper.kind == "poster" %}
@@ -105,7 +105,34 @@ Research
 
 {% endfor %}
 </tbody>
+</table> -->
+
+<tr></tr>
+{% for paper in session.papers %}
+
+{% if paper.kind == "poster" %}
+<tr>
+
+<td>
+  <span><b><a href="papers/43_task_oriented_slot_based_cumul.pdf">Dynamics Generalisation with Behaviour Foundation Models</a></b></span>
+
+
+</td>
+
+
+<td>
+{{ paper.authors }}
+</td>
+
+</tr>
+{% endif %}
+
+
+
+{% endfor %}
+</tbody>
 </table>
+
 
 
 
