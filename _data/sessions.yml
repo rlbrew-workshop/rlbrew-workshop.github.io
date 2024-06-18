@@ -82,7 +82,7 @@
     id: 12
     kind: poster
     supplement: true
-    title: REBEL: Reinforcement Learning via Regressing Relative Rewards
+    title: "REBEL: Reinforcement Learning via Regressing Relative Rewards"
     url: ''
   - authors: Nicolas Espinosa Dice, Gokul Swamy, Sanjiban Choudhury, Wen Sun
     camera_ready: 'papers/15_efficient_inverse_reinforcemen.pdf'
@@ -103,14 +103,14 @@
     id: 15
     kind: poster
     supplement: true
-    title: PIPER: Primitive-Informed Preference-based Hierarchical Reinforcement Learning via Hindsight Relabeling
+    title: "PIPER: Primitive-Informed Preference-based Hierarchical Reinforcement Learning via Hindsight Relabeling"
     url: ''
   - authors: Mingqi Yuan, Roger Creus Castanyer, Bo Li, Xin Jin, Glen Berseth, Wenjun Zeng
     camera_ready: 'papers/18_rlexplore_accelerating_researc.pdf'
     id: 16
     kind: poster
     supplement: true
-    title: RLeXplore: Accelerating Research in Intrinsically-Motivated Reinforcement Learning
+    title: "RLeXplore: Accelerating Research in Intrinsically-Motivated Reinforcement Learning"
     url: ''
   - authors: Harshit Sikchi, Caleb Chuck, Amy Zhang, Scott Niekum
     camera_ready: 'papers/21_a_dual_approach_to_imitation_l.pdf'
@@ -152,7 +152,7 @@
     id: 22
     kind: poster
     supplement: true
-    title: Tell my why: Training preferences-based RL with human preferences and step-level explanations
+    title: "Tell my why: Training preferences-based RL with human preferences and step-level explanations"
     url: ''
   - authors: Jiaheng Hu, Zizhao Wang, Peter Stone, Roberto Martín-Martín
     camera_ready: 'papers/27_disentangled_unsupervised_skil.pdf'
@@ -180,7 +180,7 @@
     id: 26
     kind: poster
     supplement: true
-    title: Agent Q: Combining Search, Self-Critique and Reinforcement Learning for Autonomous Web Agents
+    title: "Agent Q: Combining Search, Self-Critique and Reinforcement Learning for Autonomous Web Agents"
     url: ''
   - authors: Rishav Bhagat, Jonathan C Balloch, Zhiyu Lin, Mark Riedl
     camera_ready: 'papers/31_external_model_motivated_agent.pdf'
@@ -236,7 +236,7 @@
     id: 34
     kind: poster
     supplement: true
-    title: OCALM: Object-Centric Assessment with Language Models
+    title: "OCALM: Object-Centric Assessment with Language Models"
     url: ''
   - authors: Dipendra Misra, Akanksha Saran, Tengyang Xie, Alex Lamb, John Langford
     camera_ready: 'papers/41_towards_principled_representat.pdf'
