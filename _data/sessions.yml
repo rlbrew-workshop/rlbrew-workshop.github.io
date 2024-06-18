@@ -33,7 +33,7 @@
     id: 5
     kind: poster
     supplement: true
-    title: The Reward Problem: Where does the most important signal in reinforcement learning come from?
+    title: "The Reward Problem: Where does the most important signal in reinforcement learning come from?"
     url: ''
   - authors: Yuxuan Li, Srijita Das, Qinglin Liu, Matthew E. Taylor
     camera_ready: 'papers/7_integrating_feedback_and_noisy.pdf'
