@@ -162,7 +162,7 @@
     title: Disentangled Unsupervised Skill Discovery for Efficient Hierarchical Reinforcement Learning
     url: ''
   - authors: Adam Jelley, Yuhan Cao, David Bignell, Sam Devlin, Tabish Rashid
-    camera_ready: 'papers/28_aligning_agents_like_large_lan.pdf'
+    # camera_ready: 'papers/28_aligning_agents_like_large_lan.pdf'
     id: 24
     kind: poster
     supplement: true
