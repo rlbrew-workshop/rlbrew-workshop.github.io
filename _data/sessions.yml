@@ -155,14 +155,14 @@
     title: "Tell my why: Training preferences-based RL with human preferences and step-level explanations"
     url: ''
   - authors: Jiaheng Hu, Zizhao Wang, Peter Stone, Roberto Martín-Martín
-    camera_ready: 'papers/27_disentangled_unsupervised_skil.pdf'
+    # camera_ready: 'papers/27_disentangled_unsupervised_skil.pdf'
     id: 23
     kind: poster
     supplement: true
     title: Disentangled Unsupervised Skill Discovery for Efficient Hierarchical Reinforcement Learning
     url: ''
   - authors: Adam Jelley, Yuhan Cao, David Bignell, Sam Devlin, Tabish Rashid
-    # camera_ready: 'papers/28_aligning_agents_like_large_lan.pdf'
+    camera_ready: 'papers/28_aligning_agents_like_large_lan.pdf'
     id: 24
     kind: poster
     supplement: true
