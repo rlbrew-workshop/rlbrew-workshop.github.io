@@ -146,6 +146,10 @@ table {
   margin: 20px;
 }
 
+.schedule {
+  margin: 5px;
+}
+
 table .time {
   width: 160px;
 }
