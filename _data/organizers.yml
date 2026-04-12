@@ -1,36 +1,36 @@
-- name: Caleb Chuck
-  image: https://calcharles.github.io/images/CalebChuckMugShot.JPG
-  title: UT Austin
-  url: https://calcharles.github.io/
+- name: Núria Armengol Urpí
+  image: https://nuria95.github.io/assets/img/nuria_photo.jpeg
+  title: ETH, Zurich
+  url: https://nuria95.github.io/
 - name: Siddhant Agarwal
   image: https://agarwalsiddhant10.github.io/images/siddhant.png
   url: https://agarwalsiddhant10.github.io/
   title: UT Austin
-- name: Fan Feng
-  image: https://fan-feng.com/static/img/avatar.jpg
-  url: https://fan-feng.com/
-  title: City University of Hong Kong
-- name: Yuchen Cui
-  image: https://web.stanford.edu/~yuchenc/images/profile_yuchen.jpg
-  url: https://web.stanford.edu/~yuchenc/
-  title: Stanford
+- name: Pranaya Jajoo
+  image: https://pranayajajoo.github.io/images_pranaya/displayimage4.JPG
+  title: University of Alberta
+  url: https://pranayajajoo.github.io/
 - name: Harshit Sikchi
   image: https://hari-sikchi.github.io/images_harshit/profile.jpg
   url: https://hari-sikchi.github.io/
+  title: OpenAI
+- name: Max Rudolph
+  image: https://maxrudolph1.github.io/images/profile.png
   title: UT Austin
-- name: Akanksha Saran
-  image: https://asaran.github.io/images/akanksha4.jpg
+  url: https://maxrudolph1.github.io/
+- name: Ishan Durugkar
+  image: https://idurugkar.github.io/images/idurugkar.jpg
   title: Sony AI
-  url: https://asaran.github.io/
-- name: Joey Hejna
-  image: https://calcharles.github.io/files/profile.jpg
-  url: http://joeyhejna.com/
-  title: Stanford
-- name: Gokul Swamy
-  image: https://gokul.dev/assets/img/profile.png
-  title: Carnegie Mellon University
-  url: https://gokul.dev/
-- name: Roberta Raileanu
-  image: https://rraileanu.github.io/images/headshot_green.jpg
-  url: https://rraileanu.github.io/
-  title: FAIR, Meta
+  url: https://idurugkar.github.io/
+- name: Adriana E. Hugessen
+  image: https://ahugs.github.io/assets/img/prof_pic.jpg?7c1796234f390597f6c9d59dcd42d7e4
+  title: University of Montreal/Mila
+  url: https://ahugs.github.io/
+- name: Caleb Chuck
+  image: https://calcharles.github.io/images/CalebChuckMugShot.JPG
+  title: Synthefy Inc.
+  url: https://calcharles.github.io/
+- name: Amy Zhang
+  image: https://amyzhang.github.io/images/profile.png
+  title: UT Austin
+  url: https://amyzhang.github.io/

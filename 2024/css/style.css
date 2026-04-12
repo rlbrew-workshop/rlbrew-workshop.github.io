@@ -85,6 +85,15 @@ table {
   margin-top: 0;
 }
 
+/* Previous Editions dropdown spacing */
+.previous-dropdown {
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+.previous-dropdown .dropdown-item + .dropdown-item {
+  margin-top: 4px;
+}
+
 .navbar-light .navbar-toggler {
   border: none;
 }

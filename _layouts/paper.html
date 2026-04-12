@@ -5,36 +5,26 @@ chat: true
 session_1: false
 session_2: false
 ---
+<h3>Accepted Papers</h3>
+<br><br>
 
+<center>
 <div class="row justify-content-center">
+
 <div class="paper text-center">
-	<h3>{{ page.title }}</h3>
+{%- for paper in site.data.papers -%}
+	<h3>{{ paper.title }}</h3>
 	<ul>
-		<li><b>{{ page.authors }}</b></li>
-		<li>
-		{% if page.kind == "oral" %}
-		<span> (Oral)</span>
-		{% elsif page.kind == "spotlight" %}
-		<span> (Spotlight)</span>
-		{% endif %}
-    <a href="/pdf/{{ page.id }}.pdf"> &nbsp PDF</a>
-    {% if page.supplement == "True" %}
-    <a href="/supplement/{{ page.id }}supp.pdf"> &nbsp Supplement </a>
-    {% endif %}
-
-		</li>
-
-		<object data="{{ /pdf/{{ page.id }}.pdf"  type="application/pdf" >
-    		<embed src="/pdf/{{ page.id }}.pdf" type="application/pdf" width="950px" height="950px">
-        	<!-- <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/pdf/BAICS_{{ page.id }}.pdf">Download PDF</a>.</p> -->
-    		</embed>
-		</object>
+		<li><b>{{ paper.authors }}</b></li>
+		<li><a href="{{ paper.link }}">{{ paper.link }}</a></li>
 
 	</ul>
+{%- endfor -%}
 </div>
 </div>
+</center>
 
-<div class="row justify-content-center">
+<!-- <div class="row justify-content-center"> -->
 
 
 
