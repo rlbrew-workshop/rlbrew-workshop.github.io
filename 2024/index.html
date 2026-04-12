@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<figure>
+    <center><img src="/2024/main_figure.png" style="width:65%"; /></center>
+    <!-- <figcaption style='text-align: center'><small>Source: <a href="https://ai.googleblog.com/2020/04/an-optimistic-perspective-on-offline.html">Google AI Blog </a></small></figcaption> -->
+</figure>  
+
+<div class="row">
+
+<p>
+	Reinforcement learning has been widely successful in solving particular tasks defined with a reward function - from superhuman Go playing to magnetic confinement for plasma control. On the other hand, creating a generalist RL agent poses the unresolved question of what agent can learn not just from reward-defined environments, but from the often substantial quantity of reward-free interactions with the environment. This question has been explored recently and has taken diverse forms—learning representations that are action-free, causal, predictive, and contrastive; learning from large-scale action-free datasets; learning exploration using intrinsic reward and skill discovery; learning policies that are arbitrary goal-reaching, language-conditioned, policies optimal for distribution of reward function, or even optimal for all reward functions; learning intent from datasets using a variety of learning signals like preferences, rankings, expert, and human cues; learning imitative foundational action models. The RLBrew workshop focuses on this setting of reward-free RL. Considering the wide variety of possibilities for RL beyond rewards, we aim to bring a set of diverse opinions to the table to spark discussion about the right questions and novel tools to introduce new capabilities for RL agents in the reward-free setting.
+</p>
+
+
+
+
+</div>
+
+<!-- <p>
+Submission site: <a href="">  </a>
+The submission deadline is October 2, 2022 (Anywhere on Earth) <strike> September 30, 2022 </strike> . Please refer to the <a href="https://offline-rl-neurips.github.io/2022/submit.html"> submission </a> page for more details.	
+</p> -->
+	
+<!-- <div id="PC" class="row">
+<h3>Program Committee</h3>
+<div class="break"></div>
+	<ul style="width:25%; float:left; display: inline; ">
+		<li>Adam R Villaflor </li>
+		<li>Alex Irpan </li>
+
+
+	 </ul>
+
+	<ul style="width:25%; float:center; display: inline; ">
+		<li>Ilya Kostrikov </li>
+
+	</ul>
+
+	<ul style="width:25%; float:right; display: inline;">
+		<li>Kamyar Ghasemipour </li>
+		<li>Shangtong Zhang </li>
+
+	</ul>
+</div>
+ -->
+<center>
+<div style="text-align: center;">
+<div id="organizers" class="row">
+<h2 style="text-align: center;">Organizers</h2>
+<div class="break"></div>
+<div style="text-align: center;">
+{%- for person in site.data.organizers -%}
+<div class="person">
+  <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
+   <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
+</div>
+{%- endfor -%}
+</div>
+</div></div>
+</center>
+<p> To contact the organizers, please send an email to <a href="mailto:rlbrew-workshop@gmail.com">rlbrew.workshop@gmail.com</a> or @ us on X/Twitter at @RLBRew_2024<p>
+<p> Link to future workshops: <a href="https://rlbrew2-workshop.github.io/">2025</a>, <a href="https://rlbrew3-workshop.github.io/">2026</a> </p>

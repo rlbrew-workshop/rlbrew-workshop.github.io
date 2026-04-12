@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+<!-- <div class="row"> -->
+
+<!-- <p> <font style="color:red"> Panel Questions</font>: You can submit questions -->
+<!-- for the <a href="/2022/schedule.html"> live panel discussion </a> using this <a href="https://forms.gle/YExGdxs3CpuhC3pL6"> Google form</a>.</p> -->
+
+<h3>Invited Speakers</h3>
+<br><br>
+
+<center>
+<div style="text-align: center;">
+<div id="speakers" class="row">
+<!-- <h2 style="text-align: center;">Speakers</h2> -->
+<div class="break"></div>
+<div style="text-align: center;">
+{%- for person in site.data.speakers -%}
+<div class="person">
+  <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
+   <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
+</div>
+{%- endfor -%}
+</div>
+</div></div>
+</center>
+

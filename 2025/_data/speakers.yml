@@ -1,0 +1,24 @@
+- name: Chelsea Finn
+  image: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg
+  title: Stanford University, Pi 
+  url: https://ai.stanford.edu/~cbfinn/
+- name: George Konidaris
+  image: https://cs.brown.edu/people/gdk/images/gdk-photo3.jpg
+  title: Brown University
+  url: https://cs.brown.edu/people/gdk/
+- name: Giorgia Ramponi
+  image: https://gioramponi.github.io/images/gionew.jpeg
+  title: University of Zurich
+  url: https://gioramponi.github.io
+- name: Michael Dennis
+  image: https://www.michaeldennis.ai/images/profile.jpeg
+  title: Google DeepMind 
+  url: https://www.michaeldennis.ai
+- name: Ahmed Touati
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D4LT5xAAAAAJ&citpid=3
+  title: Meta AI 
+  url: https://scholar.google.com/citations?user=D4LT5xAAAAAJ&hl=en
+- name: Furong Huang
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=13yyuCcAAAAJ&citpid=12
+  title: University of Maryland 
+  url: https://furong-huang.com
