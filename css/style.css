@@ -294,6 +294,11 @@ table .time {
   padding-bottom: 6px;
 }
 
+.previous-dropdown .dropdown-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .previous-dropdown .dropdown-item + .dropdown-item {
   margin-top: 4px;
 }
