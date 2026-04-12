@@ -282,11 +282,12 @@ table .time {
 
 /* Previous Editions dropdown tuning */
 #previousEditionsMenu + .dropdown-menu {
-  min-width: 8.5rem;
+  min-width: 4.25rem;
 }
 
 #previousEditionsMenu + .dropdown-menu .dropdown-item {
-  padding-left: 1.2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .previous-dropdown {
