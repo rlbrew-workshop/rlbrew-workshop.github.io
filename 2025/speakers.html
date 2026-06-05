@@ -17,7 +17,7 @@ layout: default_2025
 <!-- <h2 style="text-align: center;">Speakers</h2> -->
 <div class="break"></div>
 <div style="text-align: center;">
-{%- for person in site.data.speakers -%}
+{%- for person in site.data.speakers_2025 -%}
 <div class="person">
   <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
    <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
@@ -27,4 +27,3 @@ layout: default_2025
 </div>
 </div></div>
 </center>
-
